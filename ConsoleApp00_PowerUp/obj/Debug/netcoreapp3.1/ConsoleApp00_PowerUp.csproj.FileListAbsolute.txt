@@ -1,0 +1,13 @@
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.exe
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.deps.json
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.runtimeconfig.json
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.runtimeconfig.dev.json
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.dll
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.pdb
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.csprojAssemblyReference.cache
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.AssemblyInfoInputs.cache
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.AssemblyInfo.cs
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.csproj.CoreCompileInputs.cache
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.dll
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.pdb
+D:\Csharp\CsharpPowerUp\ConsoleApp00_PowerUp\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp.genruntimeconfig.cache
