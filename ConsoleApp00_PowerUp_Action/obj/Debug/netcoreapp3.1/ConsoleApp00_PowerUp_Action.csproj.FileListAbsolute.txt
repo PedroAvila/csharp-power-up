@@ -1,0 +1,13 @@
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.exe
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.deps.json
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.runtimeconfig.json
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.runtimeconfig.dev.json
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.dll
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\bin\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.pdb
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.AssemblyInfoInputs.cache
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.AssemblyInfo.cs
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.csproj.CoreCompileInputs.cache
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.dll
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.pdb
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.genruntimeconfig.cache
+C:\Pedro\csharp-power-up\ConsoleApp00_PowerUp_Action\obj\Debug\netcoreapp3.1\ConsoleApp00_PowerUp_Action.csproj.AssemblyReference.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp\\ConsoleApp00_PowerUp.csproj": {}
+    "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp_Action\\ConsoleApp00_PowerUp_Action.csproj": {}
   },
   "projects": {
-    "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp\\ConsoleApp00_PowerUp.csproj": {
+    "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp_Action\\ConsoleApp00_PowerUp_Action.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp\\ConsoleApp00_PowerUp.csproj",
-        "projectName": "ConsoleApp00_PowerUp",
-        "projectPath": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp\\ConsoleApp00_PowerUp.csproj",
+        "projectUniqueName": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp_Action\\ConsoleApp00_PowerUp_Action.csproj",
+        "projectName": "ConsoleApp00_PowerUp_Action",
+        "projectPath": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp_Action\\ConsoleApp00_PowerUp_Action.csproj",
         "packagesPath": "C:\\Users\\ext_pedro_avila\\.nuget\\packages\\",
-        "outputPath": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp\\obj\\",
+        "outputPath": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp_Action\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

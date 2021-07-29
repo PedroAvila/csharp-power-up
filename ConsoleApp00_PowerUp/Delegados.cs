@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ConsoleApp00_PowerUp
 {
@@ -13,10 +11,10 @@ namespace ConsoleApp00_PowerUp
         public string Raza { get; set; }
         public string Nombre { get; set; }
 
-        public Personaje(string nombre, string raza)
+        public Personaje(string nombre, string raza) // Ctrl + Alt + ]
         {
-            this.Nombre = nombre;
-            this.Raza = raza;
+            Nombre = nombre;
+            Raza = raza;
         }
 
         public void PalabrasDelPersonaje(string mensaje)
