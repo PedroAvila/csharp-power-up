@@ -1,0 +1,13 @@
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\bin\Debug\netcoreapp3.1\ConsoleApp11_Advanced.exe
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\bin\Debug\netcoreapp3.1\ConsoleApp11_Advanced.deps.json
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\bin\Debug\netcoreapp3.1\ConsoleApp11_Advanced.runtimeconfig.json
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\bin\Debug\netcoreapp3.1\ConsoleApp11_Advanced.runtimeconfig.dev.json
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\bin\Debug\netcoreapp3.1\ConsoleApp11_Advanced.dll
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\bin\Debug\netcoreapp3.1\ConsoleApp11_Advanced.pdb
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.csproj.AssemblyReference.cache
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.AssemblyInfoInputs.cache
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.AssemblyInfo.cs
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.csproj.CoreCompileInputs.cache
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.dll
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.pdb
+C:\Pedro\csharp-power-up\ConsoleApp11_Advanced\obj\Debug\netcoreapp3.1\ConsoleApp11_Advanced.genruntimeconfig.cache

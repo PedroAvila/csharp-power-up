@@ -1,0 +1,13 @@
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\bin\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.exe
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\bin\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.deps.json
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\bin\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.runtimeconfig.json
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\bin\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.runtimeconfig.dev.json
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\bin\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.dll
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\bin\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.pdb
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.csproj.AssemblyReference.cache
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.AssemblyInfoInputs.cache
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.AssemblyInfo.cs
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.csproj.CoreCompileInputs.cache
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.dll
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.pdb
+C:\Pedro\csharp-power-up\ConsoleApp_MetodosExtension\obj\Debug\netcoreapp3.1\ConsoleApp_MetodosExtension.genruntimeconfig.cache
