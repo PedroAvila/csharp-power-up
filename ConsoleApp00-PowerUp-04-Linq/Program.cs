@@ -99,10 +99,20 @@ namespace ConsoleApp00_PowerUp_04_Linq
             //var firstF = new[] { "aa", "bb", "cc" }.First(x => x.Contains("d"));
             //Console.WriteLine(firstF);
 
-            Console.ReadLine();
-
             // FirstOrDefault
+            Console.WriteLine("FirstOrDefault");
+            var firstOrDefaultA = new[] { "a", "b", "c" }.FirstOrDefault();
+            var firstOrDefaultB = new[] { "aa", "d", "e" }.FirstOrDefault(x => x.Equals("e"));
+            var firstOrDefaultC = new[] { "ab", "cd", "ed" }.FirstOrDefault(x => x.Contains("d"));
+            var firstOrDefaultD = new[] { "ac", "b", "cc" }.FirstOrDefault(x => x.Contains("e"));
 
+            Console.WriteLine(firstOrDefaultA);
+            Console.WriteLine(firstOrDefaultB);
+            Console.WriteLine(firstOrDefaultC);
+            Console.WriteLine(firstOrDefaultD);
+            var firstOrDefaultE = new[] { "a", "a", "a" }.FirstOrDefault(x => x.Equals("b"));
+            Console.WriteLine($"firstOrDefaultE {firstOrDefaultE}");
+            Console.ReadLine();
             // Last
 
             // LastOrDefault
