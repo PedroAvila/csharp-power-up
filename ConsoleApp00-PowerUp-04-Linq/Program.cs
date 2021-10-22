@@ -49,8 +49,25 @@ namespace ConsoleApp00_PowerUp_04_Linq
             numerosSelectManyB.Select(y => x * y));
             Console.WriteLine(String.Join(',', numerosMultiplicadosSelectManyLambda));
 
-            Console.WriteLine(Environment.NewLine);
 
+            var arregloInception = new[]
+            {
+                new[] { 1, 2, 3 },
+                new[] { 4, 5 },
+                new[] { 6 }
+            };
+
+            var secuenciaPlana = arregloInception.SelectMany(x => x);
+            Console.WriteLine(String.Join(',', secuenciaPlana));
+
+            var armas = new[] { "arco, flecha, espada", "cadena, catana", "staff" };
+            var separarPorPalabrasYRetornarUnaLista = armas.SelectMany(x => x.Split(',').Select(y => y.Trim()));
+            foreach (var item in separarPorPalabrasYRetornarUnaLista)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine(Environment.NewLine);
             Console.ReadLine();
 
             // Where
