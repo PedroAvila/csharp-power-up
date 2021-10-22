@@ -81,8 +81,25 @@ namespace ConsoleApp00_PowerUp_04_Linq
             var numerosParesLambda = numerosListaParaElWhere.Where(x => x % 2 == 0);
             Console.WriteLine(String.Join(',', numerosParesLambda));
 
-            Console.ReadLine();
             // First
+
+            var firstA = new[] { "a" }.First();
+            var firstB = new[] { "a", "b" }.First();
+            var firstC = new[] { "a", "b" }.First(x => x.Equals("a"));
+            var firstD = new[] { "aa", "bb", "ab" }.First(x => x.Contains("b"));
+
+            Console.WriteLine(firstA);
+            Console.WriteLine(firstB);
+            Console.WriteLine(firstC); 
+            Console.WriteLine(firstD);
+
+            // Esto genera error
+            //var firstE = new[] { "aa", "bb", "cc", "dd" }.First(x => x.Equals("e"));
+            //Console.WriteLine(firstE);
+            //var firstF = new[] { "aa", "bb", "cc" }.First(x => x.Contains("d"));
+            //Console.WriteLine(firstF);
+
+            Console.ReadLine();
 
             // FirstOrDefault
 
