@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J0/0oM/hwCATSBEjhOua3ZW1QWI56pADElwsIb2XFO6dG5JsJ8Y+7ZH/pt7C005MciqWiqP+hCxYiIanxA+KUQ==",
+  "dgSpecHash": "w+MhIdyE4f8tplJKiuNa2nz9ZsBJbOCACDj5ZCwtWUIwRUQar/1OxntT9PR0LxAXJlFCE4xY68jRgPmnNQZ+yQ==",
   "success": true,
-  "projectFilePath": "C:\\Pedro\\csharp-power-up\\ConsoleApp00_PowerUp\\ConsoleApp00_PowerUp.csproj",
+  "projectFilePath": "C:\\Csharp\\csharp-power-up\\ConsoleApp00_PowerUp\\ConsoleApp00_PowerUp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

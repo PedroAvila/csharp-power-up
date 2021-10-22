@@ -1,0 +1,16 @@
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.exe
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.deps.json
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.runtimeconfig.json
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.runtimeconfig.dev.json
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.dll
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ref\ConsoleApp00-PowerUp-04-Linq.dll
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\bin\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.pdb
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.csproj.AssemblyReference.cache
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.AssemblyInfoInputs.cache
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.AssemblyInfo.cs
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.csproj.CoreCompileInputs.cache
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.dll
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ref\ConsoleApp00-PowerUp-04-Linq.dll
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.pdb
+C:\Csharp\csharp-power-up\ConsoleApp00-PowerUp-04-Linq\obj\Debug\net5.0\ConsoleApp00-PowerUp-04-Linq.genruntimeconfig.cache

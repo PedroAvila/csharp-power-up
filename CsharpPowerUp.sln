@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp00_PowerUp", "Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp00_PowerUp_Action", "ConsoleApp00_PowerUp_Action\ConsoleApp00_PowerUp_Action.csproj", "{1C988672-C232-4A6A-8C97-D6B0D5626D86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp11_Advanced", "ConsoleApp11_Advanced\ConsoleApp11_Advanced.csproj", "{92AC95B9-1FFE-4135-98F4-7652AC8D81FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp11_Advanced", "ConsoleApp11_Advanced\ConsoleApp11_Advanced.csproj", "{92AC95B9-1FFE-4135-98F4-7652AC8D81FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_MetodosExtension", "ConsoleApp_MetodosExtension\ConsoleApp_MetodosExtension.csproj", "{1FC1E11F-E847-414F-89B5-A31A7CCEB330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp_MetodosExtension", "ConsoleApp_MetodosExtension\ConsoleApp_MetodosExtension.csproj", "{1FC1E11F-E847-414F-89B5-A31A7CCEB330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp00-PowerUp-04-Linq", "ConsoleApp00-PowerUp-04-Linq\ConsoleApp00-PowerUp-04-Linq.csproj", "{CD4F01C3-20CC-41C2-BB2B-388BF895FEDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1FC1E11F-E847-414F-89B5-A31A7CCEB330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FC1E11F-E847-414F-89B5-A31A7CCEB330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FC1E11F-E847-414F-89B5-A31A7CCEB330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4F01C3-20CC-41C2-BB2B-388BF895FEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4F01C3-20CC-41C2-BB2B-388BF895FEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4F01C3-20CC-41C2-BB2B-388BF895FEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4F01C3-20CC-41C2-BB2B-388BF895FEDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
