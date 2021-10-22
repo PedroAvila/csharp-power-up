@@ -68,10 +68,20 @@ namespace ConsoleApp00_PowerUp_04_Linq
             }
 
             Console.WriteLine(Environment.NewLine);
-            Console.ReadLine();
 
             // Where
 
+            int[] numerosListaParaElWhere = { 1, 4, 7, 8, 5, 2, 3, 6, 9 };
+            var numerosParesStatement = from x in numerosListaParaElWhere
+                                        where x % 2 == 0
+                                        select x;
+
+            Console.WriteLine(String.Join(',', numerosParesStatement));
+
+            var numerosParesLambda = numerosListaParaElWhere.Where(x => x % 2 == 0);
+            Console.WriteLine(String.Join(',', numerosParesLambda));
+
+            Console.ReadLine();
             // First
 
             // FirstOrDefault
