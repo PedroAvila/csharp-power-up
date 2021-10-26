@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ConsoleApp00_PowerUp_04_Linq
@@ -112,19 +114,64 @@ namespace ConsoleApp00_PowerUp_04_Linq
             Console.WriteLine(firstOrDefaultD);
             var firstOrDefaultE = new[] { "a", "a", "a" }.FirstOrDefault(x => x.Equals("b"));
             Console.WriteLine($"firstOrDefaultE {firstOrDefaultE}");
-            Console.ReadLine();
+
             // Last
+            Console.WriteLine("Last");
+            var lastA = new[] { "a", "ab", "t" }.Last();
+            var lastB = new[] { "b", "cd", "r" }.Last();
+            var lastC = new[] { "c", "ce", "f" }.Last(x => x.Contains("c"));
+            var lastD = new[] { "d", "aa", "b", "ab" }.Last(x => x.Contains("a"));
+            Console.WriteLine(lastA);
+            Console.WriteLine(lastB);
+            Console.WriteLine(lastC);
+            Console.WriteLine(lastD);
 
             // LastOrDefault
+            Console.WriteLine("LastOrDefault");
+            var lastOrDefaultA = new[] { "a", "b", "c" }.LastOrDefault();
+            var lastOrDefaultB = new[] { "b", "c", "d" }.LastOrDefault();
+            var lastOrDefaultC = new[] { "c", "d", "e" }.LastOrDefault(x => x.Contains("a"));
+            var lastOrDefaultD = new[] { "d", "e", "f" }.LastOrDefault(x => x.Equals("b"));
+            Console.WriteLine(lastOrDefaultA);
+            Console.WriteLine(lastOrDefaultB);
+            Console.WriteLine(lastOrDefaultC);
+            Console.WriteLine(lastOrDefaultD);
 
             // Single
+            var singleA = new[] { "a" }.Single();
+            var singleB = new[] { "aa", "ab", "ac" }.Single(x => x.Contains("b"));
+            var singleC = new[] { "ab", "bb", "cc" }.Single(x => x.Equals("cc"));
+            Console.WriteLine(singleA);
+            Console.WriteLine(singleB);
+            Console.WriteLine(singleC);
 
             // SingleOrDefault
+            Console.WriteLine("SingleOrDefault");
+            var singleOrDefaultA = new[] { "a" }.SingleOrDefault();
+            var singleOrDefaultB = new[] { "aa", "ab", "ac" }.SingleOrDefault(x => x.Contains("b"));
+            var singleOrDefaultC = new[] { "ab", "bb", "cc" }.SingleOrDefault(x => x.Equals("f"));
+            Console.WriteLine(singleOrDefaultA);
+            Console.WriteLine(singleOrDefaultB);
+            Console.WriteLine(singleOrDefaultC);
 
             // Except
+            Console.WriteLine("Except");
+            int[] primerBloque = { 1, 2, 3, 4, 5 };
+            int[] segundoBloque = { 4, 5, 6, 7 };
+            IEnumerable<int> exceptA = primerBloque.Except(segundoBloque);
+            Console.WriteLine(String.Join(',', exceptA));
+            int[] tercerBloque = { 1, 3, 5, 7 };
+            IEnumerable<int> exceptB = tercerBloque.Except(segundoBloque);
+            Console.WriteLine(String.Join(',', exceptB));
 
             // Any
-
+            Console.WriteLine("Any");
+            var postres = new string[] { "alfajores", "bombones", "churros" };
+            var hayPostreA = postres.Any(p => p.Equals("alfajores"));
+            var hayPostreB = postres.Any(p => p.Equals("tacos"));
+            Console.WriteLine(hayPostreA);
+            Console.WriteLine(hayPostreB);
+            Console.ReadLine();
             // Skip & Take
 
             // Mini buscador: Programando con lo básico de Linq y programado de mejor manera con Linq
