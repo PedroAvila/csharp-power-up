@@ -171,13 +171,114 @@ namespace ConsoleApp00_PowerUp_04_Linq
             var hayPostreB = postres.Any(p => p.Equals("tacos"));
             Console.WriteLine(hayPostreA);
             Console.WriteLine(hayPostreB);
-            Console.ReadLine();
+
             // Skip & Take
+            Console.WriteLine("Skip & Take");
+            int[] listaNumeros = new[] { 77, 88, 99, 1, 2, 3, 20, 30, 44, 55, 66 };
+            var skipTakeA = listaNumeros.Skip(2);
+            var skipTakeB = listaNumeros.Take(3);
+            var skipTakeC = listaNumeros.Skip(1).Take(2);
+            var skipTakeD = listaNumeros.Take(0);
+            Console.WriteLine(String.Join(',', skipTakeA));
+            Console.WriteLine(String.Join(',', skipTakeB));
+            Console.WriteLine(String.Join(',', skipTakeC));
+            Console.WriteLine(String.Join(',', skipTakeD));
 
             // Mini buscador: Programando con lo básico de Linq y programado de mejor manera con Linq
+            Console.WriteLine("Mini buscador");
+            var miWorkshop = new Workshop();
+            var workshops = miWorkshop.ObtenerListaWorkshops();
+            foreach (var item in workshops)
+            {
+                Console.WriteLine($"Titulo: {item.TituloWorkshop} Duración: {item.DuracionWorkshop} Fecha: {item.FechaWorkshop}");
+            }
+
+            Console.WriteLine("Básico");
+            var busquedaBasica = miWorkshop.BuscarWorkshopBasico("C#", "", null);
+
+            foreach (var item in busquedaBasica)
+            {
+                Console.WriteLine($"Titulo: {item.TituloWorkshop} Duración: {item.DuracionWorkshop} Fecha: {item.FechaWorkshop}");
+            }
+
+            Console.WriteLine("PRO");
+            var busquedaPRO = miWorkshop.BuscarWorkshopPRO("C#", "", null);
+
+            foreach (var item in busquedaPRO)
+            {
+                Console.WriteLine($"Titulo: {item.TituloWorkshop} Duración: {item.DuracionWorkshop} Fecha: {item.FechaWorkshop}");
+            }
 
 
+            Console.ReadLine();
 
+        }
+    }
+
+    class Workshop
+    {
+        public string TituloWorkshop { get; set; }
+        public DateTime? FechaWorkshop { get; set; }
+        public string DuracionWorkshop { get; set; }
+
+        public List<Workshop> ObtenerListaWorkshops()
+        {
+            var lista = new List<Workshop>();
+
+            lista.Add(new Workshop() { TituloWorkshop = "C# Tasks", DuracionWorkshop = "4h", FechaWorkshop = new DateTime(2020, 07, 28) });
+            lista.Add(new Workshop() { TituloWorkshop = "C# Linq", DuracionWorkshop = "4h", FechaWorkshop = new DateTime(2020, 07, 28) });
+            lista.Add(new Workshop() { TituloWorkshop = "Entity Framework Core", DuracionWorkshop = "4h", FechaWorkshop = new DateTime(2020, 07, 28) });
+            lista.Add(new Workshop() { TituloWorkshop = "Titulo y Duración", DuracionWorkshop = "4h" });
+            lista.Add(new Workshop() { TituloWorkshop = "Titulo y Duración 2", DuracionWorkshop = "4h" });
+            lista.Add(new Workshop() { TituloWorkshop = "Solo Titulo 1", DuracionWorkshop = "" });
+            lista.Add(new Workshop() { TituloWorkshop = "Solo Titulo 2", DuracionWorkshop = "" });
+
+            return lista;
+        }
+
+        public List<Workshop> BuscarWorkshopBasico(string titulo, string duracion, DateTime? fecha)
+        {
+            var lista = ObtenerListaWorkshops();
+
+            if (titulo == null && duracion == null && fecha == null)
+            {
+                return lista;
+            }
+            else if (titulo != null && duracion == null && fecha == null)
+            {
+                return lista.Where(x => x.TituloWorkshop.Contains(titulo)).ToList();
+            }
+            else if (titulo == null && duracion != null && fecha == null)
+            {
+                return lista.Where(x => x.DuracionWorkshop.Contains(duracion)).ToList();
+            }
+            else if (titulo == null && duracion == null && fecha != null)
+            {
+                return lista.Where(x => x.FechaWorkshop == fecha).ToList();
+            }
+            else if (titulo != null && duracion != null && fecha == null)
+            {
+                return lista.Where(x => x.TituloWorkshop.Contains(titulo) && x.DuracionWorkshop.Contains(duracion)).ToList();
+            }
+            else if (titulo == null && duracion != null && fecha != null)
+            {
+                return lista.Where(x => x.DuracionWorkshop.Contains(duracion) && x.FechaWorkshop == fecha).ToList();
+            }
+            else if (titulo != null && duracion == null && fecha != null)
+            {
+                return lista.Where(x => x.TituloWorkshop.Contains(titulo) && x.FechaWorkshop == fecha).ToList();
+            }
+            else if (titulo != null && duracion != null && fecha != null)
+            {
+                return lista.Where(x => x.TituloWorkshop.Contains(titulo) && x.DuracionWorkshop.Contains(duracion) && x.FechaWorkshop == fecha).ToList();
+            }
+            return lista;
+        }
+
+        public List<Workshop> BuscarWorkshopPRO(string titulo, string duracion, DateTime? fecha)
+        {
+            var lista = ObtenerListaWorkshops();
+            return lista.Where(x => (String.IsNullOrEmpty(titulo) || x.TituloWorkshop.Contains(titulo)) && (String.IsNullOrEmpty(duracion) || x.DuracionWorkshop.Contains(duracion)) && (fecha == null || x.FechaWorkshop == fecha)).ToList();
         }
     }
 }
